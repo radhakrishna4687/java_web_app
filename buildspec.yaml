@@ -13,6 +13,7 @@ phase:
       command: 
         - echo Build started on `date`
         - mvn install 
+        - mvn package
     post_build: 
       command:
         - echo Build Completed on `data`
