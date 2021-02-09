@@ -13,10 +13,10 @@ phases:
       commands: 
         - echo Build started on `date`
         - mvn install 
-        - mvn package
+    #    - mvn package
     post_build: 
       commands:
         - echo Build Completed on `data`
     artifacts: 
       files:
-        - 'target/demo.war'          
+        - target/demo.war          
