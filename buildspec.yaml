@@ -4,8 +4,8 @@ phases:
   install:    
     runtime-version:
       java: openjdk8 
-    commands:
-      - echo nothing to do in the install phase.
+    #commands:
+    #  - echo nothing to do in the install phase.
     pre_build:
       commands:  
         - echo nothing to do in the pre_build phase.
