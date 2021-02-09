@@ -1,6 +1,6 @@
 Version: 0.2 
 
-phase:
+phases:
   install:    
     runtime-version:
       java: openjdk8 
