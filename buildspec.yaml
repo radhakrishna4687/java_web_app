@@ -4,18 +4,18 @@ phases:
   install:    
     runtime-version:
       java: openjdk8 
-    command:
+    commands:
       - echo nothing to do in the install phase.
     pre_build:
-      command:  
+      commands:  
         - echo nothing to do in the pre_build phase.
     build:
-      command: 
+      commands: 
         - echo Build started on `date`
         - mvn install 
         - mvn package
     post_build: 
-      command:
+      commands:
         - echo Build Completed on `data`
     artifacts: 
       files:
